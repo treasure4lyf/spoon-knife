@@ -5,7 +5,16 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  background: #eee;
 }
+.header{
+  border: 32px;
+  background-color: aqua;
+  display: flex;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
 
 img {
   width: 600px;
@@ -24,4 +33,101 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  }
+
+
+
+  
+
+  body{
+    
+    align-items: center;
+    justify-content: center;
+  } 
+  
+.input{
+    align-self: center;
+  }
+  img{
+    margin-bottom: 16px;
+
+  }
+  .button {
+    margin-bottom: 52px;
+    display: flex;
+    gap: 16px;
+
+  } 
+
+
+ul{
+list-style-type: none;
+display: flex;
+}
+
+a{
+  text-decoration: none;
+  display: flex;
+}
+
+
+
+.left-links{
+ flex: 1;
+ gap: 16px;
+}
+
+ .right-links{
+  gap: 16px;
+  flex: 1;
+  
+ }
+.content{
+align-items: center;
+justify-content: center;
+gap: 8px;
+}
+
+.button{
+  padding: 16px;
+}
+.content {
+align-items: center;
+justify-content: center;
+}
+#left-head{
+  flex: 1;
+  gap: 16px;
+}
+
+#logo {
+  gap: 16px;
+  text-align: center;
+  justify-content: center;
+  border: yellow;
+}
+#butt {
+  display: flex;
+    color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 8px;
+
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  background-color: yellowgreen;
+}
+#left-foot {
+  flex: auto;
+  gap: 16px;
+  text-decoration-color: aliceblue;
+}
+#right-foot {
+  flex: 1;
+  gap: 16px;
+  display: flex; 
 }
